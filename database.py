@@ -7,7 +7,6 @@ SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base()
 
-# ✅ FIXED MODEL
 class Message(Base):
     __tablename__ = "messages"  
 
